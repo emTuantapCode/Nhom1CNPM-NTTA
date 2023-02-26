@@ -1,0 +1,77 @@
+@media (max-width: 740px) {
+    
+    #nav li:hover a{
+        /* Hiệu ứng khi hover vào các mục */
+        color: black;
+        background-color: rgb(209, 213, 214);
+    }
+    
+    #content{
+        /* Khoảng cách với header do header cố định */
+        margin-top: 46px;
+    }
+    
+    #about-id .content-section {
+        /* Thiết lập chung cho khung của mỗi content */
+        width: 400px;
+        height: 950px;
+        padding: 50px 0;
+        /* Tự động căn chỉnh trái phải */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #content .section-heading{
+        /* Thiết lập cho các Tiêu đề của mỗi content */
+        /* Vị trí, cỡ chữ */
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        /* Khoảng cách của từng chữ tiêu đề */
+        letter-spacing: 2px; 
+    }
+    
+    #content .about{
+        /* Thiết lập ảnh và chữ cùng 1 dòng */
+        display: inline-block;
+    }
+    
+    #content .about-text{
+        padding-top: 20px;
+    }
+    
+    #content .about-img{
+        /* Kích thước ảnh, kiểu khung ảnh: bo góc */
+        width: 100%;
+        margin: 0;
+    }
+    
+    #content .contact{
+        /* Kích cỡ chữ, khoảng cách lề */
+        margin: 25px ;
+        font-size: 15px;
+        line-height: 3;
+    }
+    
+    #contact-id .content-section {
+        /* Thiết lập chung cho khung của mỗi content */
+        width: 400px;
+        height: 400px;
+        padding: 50px 0;
+        /* Tự động căn chỉnh trái phải */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #footer{
+        /* Chiều cao của footer */
+        height: 50px;
+    }
+    
+    #footer p{
+        /* Chữ trong footer: Kiểu, dáng */
+        text-transform: uppercase;
+        line-height: 50px;
+        padding: 0 30px;
+    }
+}
