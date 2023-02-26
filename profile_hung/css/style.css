@@ -5,11 +5,14 @@
 }
 
 html{
+    /* Font chữ chung */
     font-family: 'Roboto', sans-serif;
+    /* Hiệu ứng lăn chuột */
     scroll-behavior: smooth;
 }
 
 #header{
+    /* Thiết kế chiều cao, background, cố định header */
     height: 46px;
     background-color: rgb(209, 213, 214);
     position: fixed;
@@ -19,10 +22,12 @@ html{
 }
 
 #nav li{
+    /* Hiện các đầu mục trên cùng 1 dòng */
     display: inline-block;
 }
 
 #nav li a{
+    /* Chỉnh màu, kiểu dáng, chiều cao, khoảng cách các đầu mục */
     color: black;
     text-transform: uppercase;
     text-decoration: none;
@@ -32,71 +37,88 @@ html{
 }
 
 #nav li:hover a{
+    /* Hiệu ứng khi hover vào các mục */
     color: white;
     background-color: black;
 }
-/* Kich thuoc chung cua body */
+
 #content{
+    /* Khoảng cách với header do header cố định */
     margin-top: 46px;
 }
 
 #content .content-section{
+    /* Thiết lập chung cho khung của mỗi content */
     width: 800px;
     height: 450px;
     padding: 64px 0;
+    /* Tự động căn chỉnh trái phải */
     margin-left: auto;
     margin-right: auto;
 }
-/* Header moi dau muc */
+
 #content .section-heading{
+    /* Thiết lập cho các Tiêu đề của mỗi content */
+    /* Vị trí, cỡ chữ */
     text-align: center;
     font-size: 30px;
     font-weight: 500;
-    letter-spacing: 4px;
+    /* Khoảng cách của từng chữ tiêu đề */
+    letter-spacing: 10px; 
 }
-/* About */
+
 #content .about{
+    /* Thiết lập ảnh và chữ cùng 1 dòng */
     display: flex;
+    /* Lề của ảnh và đoạn văn */
     margin: 25px 59px;
 }
 
 #content .about-text{
+    /* Cỡ chữ, chiều cao dòng, kiểu dáng của đoạn văn */
     font-size: 15px;
     line-height: 2.5;
     text-align: justify;
 }
 
 #content .about-img{
+    /* Kích thước ảnh, kiểu khung ảnh: bo góc */
     margin-right: 60px;
     width: 200px;
     border-radius: 10px;
 }
-/* Contact */
+
 #content .contact-section{
+    /* Màu nền, màu chữ cho contact */
     background-color: rgb(209, 213, 214);
     color: black;
 }
 #content .contact{
+    /* Kích cỡ chữ, khoảng cách lề */
     margin: 50px 200px 0;
     font-size: 15px;
     line-height: 2.5;
 }
-/* Sua link facebook */
+
 .contact a{
+    /* Chỉnh sửa link facebook về màu và kiểu */
     color: black;
     text-decoration: none;
 }
-/* Dieu chinh icon */
+
 #content .contact i{
+    /* lề của icon */
     margin-right: 10px;
 }
-/* Footer */
+
 #footer{
+    /* Chiều cao của footer */
     height: 50px;
 }
+
 #footer p{
+    /* Chữ trong footer: Kiểu, dáng */
     text-transform: uppercase;
-    display: inline-block;
     line-height: 50px;
     padding: 0 30px;
 }
