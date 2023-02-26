@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#header{
+    height: 46px;
+    background-color: rgb(209, 213, 214);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#nav li{
+    display: inline-block;
+}
+
+#nav li a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav li:hover a{
+    color: white;
+    background-color: black;
+}
+/* Kich thuoc chung cua body */
+#content{
+    margin-top: 46px;
+}
+
+#content .content-section{
+    width: 800px;
+    height: 450px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Header moi dau muc */
+#content .section-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+/* About */
+#content .about{
+    display: flex;
+    margin: 25px 59px;
+}
+
+#content .about-text{
+    font-size: 15px;
+    line-height: 2.5;
+    text-align: justify;
+}
+
+#content .about-img{
+    margin-right: 60px;
+    width: 200px;
+    border-radius: 10px;
+}
+/* Contact */
+#content .contact-section{
+    background-color: rgb(209, 213, 214);
+    color: black;
+}
+#content .contact{
+    margin: 50px 200px 0;
+    font-size: 15px;
+    line-height: 2.5;
+}
+/* Sua link facebook */
+.contact a{
+    color: black;
+    text-decoration: none;
+}
+/* Dieu chinh icon */
+#content .contact i{
+    margin-right: 10px;
+}
+/* Footer */
+#footer{
+    height: 50px;
+}
+#footer p{
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 30px;
+}
