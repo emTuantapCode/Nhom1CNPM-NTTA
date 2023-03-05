@@ -1,0 +1,1 @@
+https://darkant12.github.io/web/
