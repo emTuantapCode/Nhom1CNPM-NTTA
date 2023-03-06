@@ -4,714 +4,765 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../dist/output.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <script src="https://cdn.tailwindcss.com"></script>
         <link
             href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
             rel="stylesheet"
         />
         <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-            crossorigin="anonymous"
-        />
-        <title>Document</title>
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+        <title>TEAM1</title>
     </head>
     <body>
+        <script src="https://cdn.tailwindcss.com/3.2.4"></script>
+
+
         <div class="h-[940px] flex justify-center bg-black">
-            <div class="w-[500px]">
-                <div class="w-full bg-white h-[70px]">
+            <div class="w-full bg-white">
+                <!-- Header -->
+                <div class="w-full h-[70px]">
                     <div
                         class="h-full bg-slate-100 text-[#12818A] rounded-t-md px-5 flex items-center"
                     >
-                        <img src="./assets/Menu.png" class="h-[15px]" alt="" />
+                        <img
+                            src="././src/assets//Menu.png"
+                            class="h-[15px]"
+                            alt=""
+                        />
                     </div>
                 </div>
-                <div class="w-full overflow-hidden">
-                    <div id="carouselExampleIndicators" class="carousel slide">
-                        <div class="carousel-indicators">
-                            <button
-                                type="button"
-                                data-bs-target="#carouselExampleIndicators"
-                                data-bs-slide-to="0"
-                                class="active"
-                                aria-current="true"
-                                aria-label="Slide 1"
-                            ></button>
-                            <button
-                                type="button"
-                                data-bs-target="#carouselExampleIndicators"
-                                data-bs-slide-to="1"
-                                aria-label="Slide 2"
-                            ></button>
-                            <button
-                                type="button"
-                                data-bs-target="#carouselExampleIndicators"
-                                data-bs-slide-to="2"
-                                aria-label="Slide 3"
-                            ></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
+                <div class="w-full">
+                    
+                    <div
+                    id="carouselExampleIndicators"
+                    class="relative"
+                    data-te-carousel-init
+                    data-te-carousel-slide>
+                    
+                    <div
+                      class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+                      <!-- DUCANH -->
+                      <div
+                        class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                        data-te-carousel-item
+                        data-te-carousel-active>
+                        <div class="h-[870px] w-[1904px]">
+                            <div class="h-[500px] w-full relative">
+                                <img
+                                    src="././src/assets/pexels-paul-jousseau-14918477.jpg"
+                                    class="object-cover h-[450px] w-full"
+                                    alt=""
+                                />
                                 <div
-                                    class="h-[870px] w-[500px] bg-body-secondary"
+                                    class="w-[400px] border-[#12818A] border-4 rounded-tr-[50px] rounded-bl-[50px] overflow-hidden left-9 h-[450px] absolute top-6"
                                 >
-                                    <div class="h-[300px] w-full relative">
-                                        <img
-                                            src="./assets/pexels-paul-jousseau-14918477.jpg"
-                                            class="object-cover h-4/5 w-full"
-                                            alt=""
-                                        />
-                                        <div
-                                            class="mt-[5px] h-[5px] bg-[#12818A]"
-                                        ></div>
-                                        <div
-                                            class="w-[200px] border-[#12818A] border-4 rounded-tr-[25px] rounded-bl-[25px] overflow-hidden left-9 h-[280px] absolute top-5"
-                                        >
-                                            <img
-                                                src="./assets/75392736_2354645734786426_882412172108365824_n.jpg"
-                                                class="h-full object-cover"
-                                                alt=""
-                                            />
-                                        </div>
-                                        <div
-                                            class="w-[50px] absolute top-[240px] right-9 flex gap-2 flex-col"
-                                        >
-                                            <img
-                                                src="./assets/Likes.png"
-                                                class="h-[40px] object-contain"
-                                                alt=""
-                                            />
-                                            <img
-                                                src="./assets/Vector (5).png"
-                                                class="h-[24px] object-contain"
-                                                alt=""
-                                            />
-                                            <img
-                                                src="./assets/Group 11.png"
-                                                class="h-[33px] object-contain"
-                                                alt=""
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="h-[200px] px-[36px]">
-                                        <p
-                                            class="text-[20px] text-[#12818A] font-semibold w-[200px] shadow-gray-50"
-                                            style="
-                                                text-shadow: 0px 4px
-                                                        rgba(0, 0, 0, 0.07),
-                                                    1px -1px 0 #000,
-                                                    -1px 1px 0 #000,
-                                                    1px 1px 0 #000;
-                                            "
-                                        >
-                                            NGUYỄN ĐỨC ANH
-                                        </p>
-                                        <p
-                                            class="text-[#8D8B8B] font-thin w-[200px] text-xs"
-                                        >
-                                            Mã sinh viên : B20DCVT024
-                                        </p>
-                                        <div class="flex gap-2 mt-1">
-                                            <img
-                                                src="./assets/Ratings.png"
-                                                class="object-contain"
-                                                alt=""
-                                            />
-                                            <span class="font-semibold text-xs">
-                                                Messenge</span
-                                            >
-                                        </div>
-                                        <div class="mt-[50px]">
-                                            <b class="text-[#12818A]">
-                                                Profile :
-                                            </b>
-                                            <p class="">
-                                                Mình là sinh viên Học viện Bưu
-                                                Chính Viễn Thông ( PTIT ) .
-                                                Chuyên ngành Điện tử Viễn Thông
-                                            </p>
-                                            <p>Quê quán : Hà Nội</p>
-                                            <div
-                                                class="flex gap-2 items-center"
-                                            >
-                                                <a
-                                                    href=""
-                                                    class="text-center text-decoration-none rounded-lg py-1 bg-[#12818A] font-semibold text-white w-[200px]"
-                                                    >Profile cá nhân</a
-                                                >
-                                                <img
-                                                    src="./assets/🦆 icon _me_ (1).png"
-                                                    class="h-[30px]"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div
-                                                class="flex gap-2 items-center mt-2"
-                                            >
-                                                <a
-                                                    href="https://github.com/ducanhlaminh"
-                                                    class="text-center text-decoration-none rounded-lg py-1 bg-[#12818A] font-semibold text-white w-[200px]"
-                                                    >Github</a
-                                                >
-                                                <img
-                                                    src="./assets/🦆 icon _github_.png"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div
-                                                class="flex gap-2 items-center mt-2 hover:bg-black"
-                                            >
-                                                <a
-                                                    href=""
-                                                    class="text-center text-decoration-none rounded-lg py-1 bg-[#12818A] font-semibold text-white w-[200px]"
-                                                    >Facebook cá nhân
-                                                </a>
-                                                <img
-                                                    src="./assets/🦆 icon _facebook squared_.png"
-                                                    alt=""
-                                                    class="h-[30px]"
-                                                />
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <img
+                                        src="././src/assets/75392736_2354645734786426_882412172108365824_n.jpg"
+                                        class="h-full object-cover"
+                                        alt=""
+                                    />
+                                </div>
+                                <div
+                                    class="w-[50px] absolute top-[500px] right-20 flex gap-2 flex-col"
+                                >
+                                    <img
+                                        src="././src/assets/Likes.png"
+                                        class="h-[40px] object-contain"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="././src/assets/Vector (5).png"
+                                        class="h-[24px] object-contain"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="././src/assets/Group 11.png"
+                                        class="h-[33px] object-contain"
+                                        alt=""
+                                    />
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <div
-                                    class="h-[870px] w-[500px] bg-body-secondary"
-                                >
-                                    <div class="h-[300px] w-full relative">
+                            <div class="h-[350px] px-[36px]">
+                                <div class="h-[100px]">
+                                    <p
+                                        class="text-[30px] text-[#12818A] font-semibold w-[300px] shadow-gray-50"
+                                        style="
+                                            text-shadow: 0px 4px rgba(0, 0, 0, 0.07),
+                                                1px -1px 0 #000, -1px 1px 0 #000,
+                                                1px 1px 0 #000;
+                                        "
+                                    >
+                                        NGUYỄN ĐỨC ANH
+                                    </p>
+                                    <p
+                                        class="text-[#8D8B8B] font-thin w-[200px] text-xs"
+                                    >
+                                        Mã sinh viên : B20DCVT024
+                                    </p>
+                                    <div class="flex gap-2 mt-1">
                                         <img
-                                            src="./assets/pexels-paul-jousseau-14918477.jpg"
-                                            class="object-cover h-4/5 w-full"
+                                            src="././src/assets/Ratings.png"
+                                            class="object-contain"
                                             alt=""
                                         />
-                                        <div
-                                            class="mt-[5px] h-[5px] bg-[#12818A]"
-                                        ></div>
-                                        <div
-                                            class="w-[200px] border-[#12818A] border-4 rounded-tr-[25px] rounded-bl-[25px] overflow-hidden left-9 h-[280px] absolute top-5"
+                                        <span
+                                            class="font-semibold text-xs bg-[#12818A] py-2 px-5 rounded-lg text-white cursor-pointer hover:bg-[#12818A]"
                                         >
-                                            <img
-                                                src="./assets/75392736_2354645734786426_882412172108365824_n.jpg"
-                                                class="h-full object-cover"
-                                                alt=""
-                                            />
-                                        </div>
-                                        <div
-                                            class="w-[50px] absolute top-[240px] right-9 flex gap-2 flex-col"
+                                            Messenge</span
                                         >
-                                            <img
-                                                src="./assets/Likes.png"
-                                                class="h-[40px] object-contain"
-                                                alt=""
-                                            />
-                                            <img
-                                                src="./assets/Vector (5).png"
-                                                class="h-[24px] object-contain"
-                                                alt=""
-                                            />
-                                            <img
-                                                src="./assets/Group 11.png"
-                                                class="h-[33px] object-contain"
-                                                alt=""
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="h-[200px] px-[36px]">
-                                        <p
-                                            class="text-[20px] text-[#12818A] font-semibold w-[200px] shadow-gray-50"
-                                            style="
-                                                text-shadow: 0px 4px
-                                                        rgba(0, 0, 0, 0.07),
-                                                    1px -1px 0 #000,
-                                                    -1px 1px 0 #000,
-                                                    1px 1px 0 #000;
-                                            "
-                                        >
-                                            NGUYỄN ĐỨC ANH
-                                        </p>
-                                        <p
-                                            class="text-[#8D8B8B] font-thin w-[200px] text-xs"
-                                        >
-                                            Mã sinh viên : B20DCVT024
-                                        </p>
-                                        <div class="flex gap-2 mt-1">
-                                            <img
-                                                src="./assets/Ratings.png"
-                                                class="object-contain"
-                                                alt=""
-                                            />
-                                            <span class="font-semibold text-xs">
-                                                Messenge</span
-                                            >
-                                        </div>
-                                        <div class="mt-[50px]">
-                                            <b class="text-[#12818A]">
-                                                Profile :
-                                            </b>
-                                            <p class="">
-                                                Mình là sinh viên Học viện Bưu
-                                                Chính Viễn Thông ( PTIT ) .
-                                                Chuyên ngành Điện tử Viễn Thông
-                                            </p>
-                                            <p>Quê quán : Hà Nội</p>
-                                            <div
-                                                class="flex gap-2 items-center"
-                                            >
-                                                <a
-                                                    href=""
-                                                    class="text-center text-decoration-none rounded-lg py-1 bg-[#12818A] font-semibold text-white w-[200px]"
-                                                    >Profile cá nhân</a
-                                                >
-                                                <img
-                                                    src="./assets/🦆 icon _me_ (1).png"
-                                                    class="h-[30px]"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div
-                                                class="flex gap-2 items-center mt-2"
-                                            >
-                                                <a
-                                                    href=""
-                                                    class="text-center text-decoration-none rounded-lg py-1 bg-[#12818A] font-semibold text-white w-[200px]"
-                                                    >Github</a
-                                                >
-                                                <img
-                                                    src="./assets/🦆 icon _github_.png"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div
-                                                class="flex gap-2 items-center mt-2"
-                                            >
-                                                <a
-                                                    href=""
-                                                    class="text-center text-decoration-none rounded-lg py-1 bg-[#12818A] font-semibold text-white w-[200px]"
-                                                    >Facebook cá nhân
-                                                </a>
-                                                <img
-                                                    src="./assets/🦆 icon _facebook squared_.png"
-                                                    alt=""
-                                                    class="h-[30px]"
-                                                />
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div
-                                    class="h-[870px] w-[500px] bg-body-secondary"
-                                >
-                                    <div class="h-[300px] w-full relative">
-                                        <img
-                                            src="./assets/pexels-paul-jousseau-14918477.jpg"
-                                            class="object-cover h-4/5 w-full"
-                                            alt=""
-                                        />
-                                        <div
-                                            class="mt-[5px] h-[5px] bg-[#12818A]"
-                                        ></div>
-                                        <div
-                                            class="w-[200px] border-[#12818A] border-4 rounded-tr-[25px] rounded-bl-[25px] overflow-hidden left-9 h-[280px] absolute top-5"
-                                        >
+                                <div class="mt-[10px] h-[250px]">
+                                    <p
+                                        class="text-[#12818A] text-xl font-bold py-2"
+                                    >
+                                        Thông tin cá nhân :
+                                    </p>
+                                    <p class="h-1/2">
+                                        Mình là sinh viên Học viện Bưu Chính Viễn
+                                        Thông ( PTIT ) . Chuyên ngành Điện tử Viễn
+                                        Thông Mình là sinh viên Học viện Bưu Chính
+                                        Viễn Thông ( PTIT ) . Chuyên ngành Điện tử
+                                        Viễn ThôngMình là sinh viên Học viện Bưu
+                                        Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                        Điện tử Viễn ThôngMình là sinh viên Học viện
+                                        Bưu Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                        Điện tử Viễn ThôngMình là sinh viên Học viện
+                                        Bưu Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                        Điện tử Viễn ThôngMình là sinh viên Học viện
+                                        Bưu Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                        Điện tử Viễn Thông
+                                    </p>
+                                    <div class="flex justify-evenly h-[70px]">
+                                        <div class="flex gap-2 items-center">
+                                            <a
+                                                href="https://profile-ducanh.vercel.app/"
+                                                class="text-center text-decoration-none rounded-lg py-5 bg-[#12818A] font-semibold text-white w-[300px]"
+                                                >PROFILE CÁ NHÂN</a
+                                            >
                                             <img
-                                                src="./assets/75392736_2354645734786426_882412172108365824_n.jpg"
+                                                src="././src/assets/🦆 icon _user_.png"
+                                                class="h-[62px] object-cover"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="flex gap-2 items-center mt-2">
+                                            <a
+                                                href="https://github.com/ducanhlaminh"
+                                                class="text-center text-decoration-none rounded-lg py-5 bg-[#12818A] font-semibold text-white w-[300px]"
+                                                >GITHUB</a
+                                            >
+                                            <img
+                                                src="././src/assets/🦆 icon _github_ (1).png"
+                                                alt=""
                                                 class="h-full object-cover"
-                                                alt=""
                                             />
                                         </div>
-                                        <div
-                                            class="w-[50px] absolute top-[240px] right-9 flex gap-2 flex-col"
-                                        >
+                                        <div class="flex gap-2 items-center mt-2">
+                                            <a
+                                                href="https://www.facebook.com/ducanhlaminh"
+                                                class="text-center text-decoration-none rounded-lg font-bold py-5 bg-[#12818A] font-semibold text-white w-[300px] text-xl"
+                                                >Facebook
+                                            </a>
                                             <img
-                                                src="./assets/Likes.png"
-                                                class="h-[40px] object-contain"
+                                                src="././src/assets/🦆 icon _facebook_.png"
                                                 alt=""
+                                                class="h-full object-cover rounded-[10px]"
                                             />
-                                            <img
-                                                src="./assets/Vector (5).png"
-                                                class="h-[24px] object-contain"
-                                                alt=""
-                                            />
-                                            <img
-                                                src="./assets/Group 11.png"
-                                                class="h-[33px] object-contain"
-                                                alt=""
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="h-[200px] px-[36px]">
-                                        <p
-                                            class="text-[20px] text-[#12818A] font-semibold w-[200px] shadow-gray-50"
-                                            style="
-                                                text-shadow: 0px 4px
-                                                        rgba(0, 0, 0, 0.07),
-                                                    1px -1px 0 #000,
-                                                    -1px 1px 0 #000,
-                                                    1px 1px 0 #000;
-                                            "
-                                        >
-                                            NGUYỄN ĐỨC ANH
-                                        </p>
-                                        <p
-                                            class="text-[#8D8B8B] font-thin w-[200px] text-xs"
-                                        >
-                                            Mã sinh viên : B20DCVT024
-                                        </p>
-                                        <div class="flex gap-2 mt-1">
-                                            <img
-                                                src="./assets/Ratings.png"
-                                                class="object-contain"
-                                                alt=""
-                                            />
-                                            <span class="font-semibold text-xs">
-                                                Messenge</span
-                                            >
-                                        </div>
-                                        <div class="mt-[50px]">
-                                            <b class="text-[#12818A]">
-                                                Profile :
-                                            </b>
-                                            <p class="">
-                                                Mình là sinh viên Học viện Bưu
-                                                Chính Viễn Thông ( PTIT ) .
-                                                Chuyên ngành Điện tử Viễn Thông
-                                            </p>
-                                            <p>Quê quán : Hà Nội</p>
-                                            <div
-                                                class="flex gap-2 items-center"
-                                            >
-                                                <a
-                                                    href=""
-                                                    class="text-center text-decoration-none rounded-lg py-1 bg-[#12818A] font-semibold text-white w-[200px]"
-                                                    >Profile cá nhân</a
-                                                >
-                                                <img
-                                                    src="./assets/🦆 icon _me_ (1).png"
-                                                    class="h-[30px]"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div
-                                                class="flex gap-2 items-center mt-2"
-                                            >
-                                                <a
-                                                    href=""
-                                                    class="text-center text-decoration-none rounded-lg py-1 bg-[#12818A] font-semibold text-white w-[200px]"
-                                                    >Github</a
-                                                >
-                                                <img
-                                                    src="./assets/🦆 icon _github_.png"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div
-                                                class="flex gap-2 items-center mt-2"
-                                            >
-                                                <a
-                                                    href=""
-                                                    class="text-center text-decoration-none rounded-lg py-1 bg-[#12818A] font-semibold text-white w-[200px]"
-                                                    >Facebook cá nhân
-                                                </a>
-                                                <img
-                                                    src="./assets/🦆 icon _facebook squared_.png"
-                                                    alt=""
-                                                    class="h-[30px]"
-                                                />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div
-                                    class="h-[870px] w-[500px] bg-body-secondary"
-                                >
-                                    <div class="h-[300px] w-full relative">
-                                        <img
-                                            src="./assets/pexels-paul-jousseau-14918477.jpg"
-                                            class="object-cover h-4/5 w-full"
-                                            alt=""
-                                        />
-                                        <div
-                                            class="mt-[5px] h-[5px] bg-[#12818A]"
-                                        ></div>
-                                        <div
-                                            class="w-[200px] border-[#12818A] border-4 rounded-tr-[25px] rounded-bl-[25px] overflow-hidden left-9 h-[280px] absolute top-5"
-                                        >
-                                            <img
-                                                src="./assets/75392736_2354645734786426_882412172108365824_n.jpg"
-                                                class="h-full object-cover"
-                                                alt=""
-                                            />
-                                        </div>
-                                        <div
-                                            class="w-[50px] absolute top-[240px] right-9 flex gap-2 flex-col"
-                                        >
-                                            <img
-                                                src="./assets/Likes.png"
-                                                class="h-[40px] object-contain"
-                                                alt=""
-                                            />
-                                            <img
-                                                src="./assets/Vector (5).png"
-                                                class="h-[24px] object-contain"
-                                                alt=""
-                                            />
-                                            <img
-                                                src="./assets/Group 11.png"
-                                                class="h-[33px] object-contain"
-                                                alt=""
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="h-[200px] px-[36px]">
-                                        <p
-                                            class="text-[20px] text-[#12818A] font-semibold w-[200px] shadow-gray-50"
-                                            style="
-                                                text-shadow: 0px 4px
-                                                        rgba(0, 0, 0, 0.07),
-                                                    1px -1px 0 #000,
-                                                    -1px 1px 0 #000,
-                                                    1px 1px 0 #000;
-                                            "
-                                        >
-                                            NGUYỄN ĐỨC ANH
-                                        </p>
-                                        <p
-                                            class="text-[#8D8B8B] font-thin w-[200px] text-xs"
-                                        >
-                                            Mã sinh viên : B20DCVT024
-                                        </p>
-                                        <div class="flex gap-2 mt-1">
-                                            <img
-                                                src="./assets/Ratings.png"
-                                                class="object-contain"
-                                                alt=""
-                                            />
-                                            <span class="font-semibold text-xs">
-                                                Messenge</span
-                                            >
-                                        </div>
-                                        <div class="mt-[50px]">
-                                            <b class="text-[#12818A]">
-                                                Profile :
-                                            </b>
-                                            <p class="">
-                                                Mình là sinh viên Học viện Bưu
-                                                Chính Viễn Thông ( PTIT ) .
-                                                Chuyên ngành Điện tử Viễn Thông
-                                            </p>
-                                            <p>Quê quán : Hà Nội</p>
-                                            <div
-                                                class="flex gap-2 items-center"
-                                            >
-                                                <a
-                                                    href=""
-                                                    class="text-center text-decoration-none rounded-lg py-1 bg-[#12818A] font-semibold text-white w-[200px]"
-                                                    >Profile cá nhân</a
-                                                >
-                                                <img
-                                                    src="./assets/🦆 icon _me_ (1).png"
-                                                    class="h-[30px]"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div
-                                                class="flex gap-2 items-center mt-2"
-                                            >
-                                                <a
-                                                    href=""
-                                                    class="text-center text-decoration-none rounded-lg py-1 bg-[#12818A] font-semibold text-white w-[200px]"
-                                                    >Github</a
-                                                >
-                                                <img
-                                                    src="./assets/🦆 icon _github_.png"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div
-                                                class="flex gap-2 items-center mt-2"
-                                            >
-                                                <a
-                                                    href=""
-                                                    class="text-center text-decoration-none rounded-lg py-1 bg-[#12818A] font-semibold text-white w-[200px]"
-                                                    >Facebook cá nhân
-                                                </a>
-                                                <img
-                                                    src="./assets/🦆 icon _facebook squared_.png"
-                                                    alt=""
-                                                    class="h-[30px]"
-                                                />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div
-                                    class="h-[870px] w-[500px] bg-body-secondary"
-                                >
-                                    <div class="h-[300px] w-full relative">
-                                        <img
-                                            src="./assets/pexels-paul-jousseau-14918477.jpg"
-                                            class="object-cover h-4/5 w-full"
-                                            alt=""
-                                        />
-                                        <div
-                                            class="mt-[5px] h-[5px] bg-[#12818A]"
-                                        ></div>
-                                        <div
-                                            class="w-[200px] border-[#12818A] border-4 rounded-tr-[25px] rounded-bl-[25px] overflow-hidden left-9 h-[280px] absolute top-5"
-                                        >
-                                            <img
-                                                src="./assets/75392736_2354645734786426_882412172108365824_n.jpg"
-                                                class="h-full object-cover"
-                                                alt=""
-                                            />
-                                        </div>
-                                        <div
-                                            class="w-[50px] absolute top-[240px] right-9 flex gap-2 flex-col"
-                                        >
-                                            <img
-                                                src="./assets/Likes.png"
-                                                class="h-[40px] object-contain"
-                                                alt=""
-                                            />
-                                            <img
-                                                src="./assets/Vector (5).png"
-                                                class="h-[24px] object-contain"
-                                                alt=""
-                                            />
-                                            <img
-                                                src="./assets/Group 11.png"
-                                                class="h-[33px] object-contain"
-                                                alt=""
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="h-[200px] px-[36px]">
-                                        <p
-                                            class="text-[20px] text-[#12818A] font-semibold w-[200px] shadow-gray-50"
-                                            style="
-                                                text-shadow: 0px 4px
-                                                        rgba(0, 0, 0, 0.07),
-                                                    1px -1px 0 #000,
-                                                    -1px 1px 0 #000,
-                                                    1px 1px 0 #000;
-                                            "
-                                        >
-                                            NGUYỄN ĐỨC ANH
-                                        </p>
-                                        <p
-                                            class="text-[#8D8B8B] font-thin w-[200px] text-xs"
-                                        >
-                                            Mã sinh viên : B20DCVT024
-                                        </p>
-                                        <div class="flex gap-2 mt-1">
-                                            <img
-                                                src="./assets/Ratings.png"
-                                                class="object-contain"
-                                                alt=""
-                                            />
-                                            <span class="font-semibold text-xs">
-                                                Messenge</span
-                                            >
-                                        </div>
-                                        <div class="mt-[50px]">
-                                            <b class="text-[#12818A]">
-                                                Profile :
-                                            </b>
-                                            <p class="">
-                                                Mình là sinh viên Học viện Bưu
-                                                Chính Viễn Thông ( PTIT ) .
-                                                Chuyên ngành Điện tử Viễn Thông
-                                            </p>
-                                            <p>Quê quán : Hà Nội</p>
-                                            <div
-                                                class="flex gap-2 items-center"
-                                            >
-                                                <a
-                                                    href=""
-                                                    class="text-center text-decoration-none rounded-lg py-1 bg-[#12818A] font-semibold text-white w-[200px]"
-                                                    >Profile cá nhân</a
-                                                >
-                                                <img
-                                                    src="./assets/🦆 icon _me_ (1).png"
-                                                    class="h-[30px]"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div
-                                                class="flex gap-2 items-center mt-2"
-                                            >
-                                                <a
-                                                    href=""
-                                                    class="text-center text-decoration-none rounded-lg py-1 bg-[#12818A] font-semibold text-white w-[200px]"
-                                                    >Github</a
-                                                >
-                                                <img
-                                                    src="./assets/🦆 icon _github_.png"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div
-                                                class="flex gap-2 items-center mt-2"
-                                            >
-                                                <a
-                                                    href=""
-                                                    class="text-center text-decoration-none rounded-lg py-1 bg-[#12818A] font-semibold text-white w-[200px]"
-                                                    >Facebook cá nhân
-                                                </a>
-                                                <img
-                                                    src="./assets/🦆 icon _facebook squared_.png"
-                                                    alt=""
-                                                    class="h-[30px]"
-                                                />
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <button
-                            class="carousel-control-prev"
-                            type="button"
-                            data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="prev"
-                        >
-                            <span
-                                class="carousel-control-prev-icon"
-                                aria-hidden="true"
-                            ></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button
-                            class="carousel-control-next"
-                            type="button"
-                            data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="next"
-                        >
-                            <span
-                                class="carousel-control-next-icon"
-                                aria-hidden="true"
-                            ></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+                      </div>
+                      <!-- HUNG -->
+                      <div
+                        class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                        data-te-carousel-item>
+                        <div class="h-[870px] w-[1904px]">
+                            <div class="h-[500px] w-full relative">
+                                <img
+                                    src="././src/assets/nen4.jpg"
+                                    class="object-cover h-[450px] w-full"
+                                    alt=""
+                                />
+                                <div
+                                    class="w-[400px] border-[#12818A] border-4 rounded-tr-[50px] rounded-bl-[50px] overflow-hidden left-9 h-[450px] absolute top-6"
+                                >
+                                    <img
+                                        src="././src/assets/hung.jpg"
+                                        class="h-full object-cover w-full"
+                                        alt=""
+                                    />
+                                </div>
+                                <div
+                                    class="w-[50px] absolute top-[500px] right-20 flex gap-2 flex-col"
+                                >
+                                    <img
+                                        src="././src/assets/Likes.png"
+                                        class="h-[40px] object-contain"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="././src/assets/Vector (5).png"
+                                        class="h-[24px] object-contain"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="././src/assets/Group 11.png"
+                                        class="h-[33px] object-contain"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div class="h-[350px] px-[36px]">
+                                <div class="h-[100px]">
+                                    <p
+                                        class="text-[30px] text-[#12818A] font-semibold w-[300px] shadow-gray-50"
+                                        style="
+                                            text-shadow: 0px 4px rgba(0, 0, 0, 0.07),
+                                                1px -1px 0 #000, -1px 1px 0 #000,
+                                                1px 1px 0 #000;
+                                        "
+                                    >
+                                        NGUYỄN THẾ HÙNG
+                                    </p>
+                                    <p
+                                        class="text-[#8D8B8B] font-thin w-[200px] text-xs"
+                                    >
+                                        Mã sinh viên : B20DCVT024
+                                    </p>
+                                    <div class="flex gap-2 mt-1">
+                                        <img
+                                            src="././src/assets/Ratings.png"
+                                            class="object-contain"
+                                            alt=""
+                                        />
+                                        <span
+                                            class="font-semibold text-xs bg-[#12818A] py-2 px-5 rounded-lg text-white cursor-pointer hover:bg-[#12818A]"
+                                        >
+                                            Messenge</span
+                                        >
+                                    </div>
+                                </div>
+                                <div class="mt-[10px] h-[250px]">
+                                    <p
+                                        class="text-[#12818A] text-xl font-bold py-2"
+                                    >
+                                        Thông tin cá nhân :
+                                    </p>
+                                    <p class="h-1/2">
+                                        Mình là sinh viên Học viện Bưu Chính Viễn
+                                        Thông ( PTIT ) . Chuyên ngành Điện tử Viễn
+                                        Thông Mình là sinh viên Học viện Bưu Chính
+                                        Viễn Thông ( PTIT ) . Chuyên ngành Điện tử
+                                        Viễn ThôngMình là sinh viên Học viện Bưu
+                                        Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                        Điện tử Viễn ThôngMình là sinh viên Học viện
+                                        Bưu Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                        Điện tử Viễn ThôngMình là sinh viên Học viện
+                                        Bưu Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                        Điện tử Viễn ThôngMình là sinh viên Học viện
+                                        Bưu Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                        Điện tử Viễn Thông
+                                    </p>
+                                    <div class="flex justify-evenly h-[70px]">
+                                        <div class="flex gap-2 items-center">
+                                            <a
+                                                href="https://thehungnguyen.github.io/"
+                                                class="text-center text-decoration-none rounded-lg py-5 bg-[#12818A] font-semibold text-white w-[300px]"
+                                                >PROFILE CÁ NHÂN</a
+                                            >
+                                            <img
+                                                src="././src/assets/🦆 icon _user_.png"
+                                                class="h-[62px] object-cover"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="flex gap-2 items-center mt-2">
+                                            <a
+                                                href="https://github.com/thehungnguyen"
+                                                class="text-center text-decoration-none rounded-lg py-5 bg-[#12818A] font-semibold text-white w-[300px]"
+                                                >GITHUB</a
+                                            >
+                                            <img
+                                                src="././src/assets/🦆 icon _github_ (1).png"
+                                                alt=""
+                                                class="h-full object-cover"
+                                            />
+                                        </div>
+                                        <div class="flex gap-2 items-center mt-2">
+                                            <a
+                                                href="https://www.facebook.com/profile.php?id=100009085904248"
+                                                class="text-center text-decoration-none rounded-lg font-bold py-5 bg-[#12818A] font-semibold text-white w-[300px] text-xl"
+                                                >Facebook
+                                            </a>
+                                            <img
+                                                src="././src/assets/🦆 icon _facebook_.png"
+                                                alt=""
+                                                class="h-full object-cover rounded-[10px]"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <!-- TUANh -->
+                      <div
+                        class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                        data-te-carousel-item>
+                        <div class="h-[870px] w-[1904px]">
+                            <div class="h-[500px] w-full relative">
+                                <img
+                                    src="././src/assets/nen3.jpg"
+                                    class="object-cover h-[450px] w-full"
+                                    alt=""
+                                />
+                                <div
+                                    class="w-[400px] border-[#12818A] border-4 rounded-tr-[50px] rounded-bl-[50px] overflow-hidden left-9 h-[450px] absolute top-6"
+                                >
+                                    <img
+                                        src="././src/assets/tuananh.jpg"
+                                        class="h-full object-cover"
+                                        alt=""
+                                    />
+                                </div>
+                                <div
+                                    class="w-[50px] absolute top-[500px] right-20 flex gap-2 flex-col"
+                                >
+                                    <img
+                                        src="././src/assets/Likes.png"
+                                        class="h-[40px] object-contain"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="././src/assets/Vector (5).png"
+                                        class="h-[24px] object-contain"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="././src/assets/Group 11.png"
+                                        class="h-[33px] object-contain"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div class="h-[350px] px-[36px]">
+                                <div class="h-[100px]">
+                                    <p
+                                        class="text-[30px] text-[#12818A] font-semibold w-[300px] shadow-gray-50"
+                                        style="
+                                            text-shadow: 0px 4px rgba(0, 0, 0, 0.07),
+                                                1px -1px 0 #000, -1px 1px 0 #000,
+                                                1px 1px 0 #000;
+                                        "
+                                    >
+                                        ĐINH TUẤN ANH
+                                    </p>
+                                    <p
+                                        class="text-[#8D8B8B] font-thin w-[200px] text-xs"
+                                    >
+                                        Mã sinh viên : B20DCVT024
+                                    </p>
+                                    <div class="flex gap-2 mt-1">
+                                        <img
+                                            src="././src/assets/Ratings.png"
+                                            class="object-contain"
+                                            alt=""
+                                        />
+                                        <span
+                                            class="font-semibold text-xs bg-[#12818A] py-2 px-5 rounded-lg text-white cursor-pointer hover:bg-[#12818A]"
+                                        >
+                                            Messenge</span
+                                        >
+                                    </div>
+                                </div>
+                                <div class="mt-[10px] h-[250px]">
+                                    <p
+                                        class="text-[#12818A] text-xl font-bold py-2"
+                                    >
+                                        Thông tin cá nhân :
+                                    </p>
+                                    <p class="h-1/2">
+                                        Mình là sinh viên Học viện Bưu Chính Viễn
+                                        Thông ( PTIT ) . Chuyên ngành Điện tử Viễn
+                                        Thông Mình là sinh viên Học viện Bưu Chính
+                                        Viễn Thông ( PTIT ) . Chuyên ngành Điện tử
+                                        Viễn ThôngMình là sinh viên Học viện Bưu
+                                        Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                        Điện tử Viễn ThôngMình là sinh viên Học viện
+                                        Bưu Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                        Điện tử Viễn ThôngMình là sinh viên Học viện
+                                        Bưu Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                        Điện tử Viễn ThôngMình là sinh viên Học viện
+                                        Bưu Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                        Điện tử Viễn Thông
+                                    </p>
+                                    <div class="flex justify-evenly h-[70px]">
+                                        <div class="flex gap-2 items-center">
+                                            <a
+                                                href="https://adt-motionteam.github.io/profile_CNPM/"
+                                                class="text-center text-decoration-none rounded-lg py-5 bg-[#12818A] font-semibold text-white w-[300px]"
+                                                >PROFILE CÁ NHÂN</a
+                                            >
+                                            <img
+                                                src="././src/assets/🦆 icon _user_.png"
+                                                class="h-[62px] object-cover"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="flex gap-2 items-center mt-2">
+                                            <a
+                                                href="https://github.com/emTuantapCode"
+                                                class="text-center text-decoration-none rounded-lg py-5 bg-[#12818A] font-semibold text-white w-[300px]"
+                                                >GITHUB</a
+                                            >
+                                            <img
+                                                src="././src/assets/🦆 icon _github_ (1).png"
+                                                alt=""
+                                                class="h-full object-cover"
+                                            />
+                                        </div>
+                                        <div class="flex gap-2 items-center mt-2">
+                                            <a
+                                                href="https://www.facebook.com/anh.tuan.020302"
+                                                class="text-center text-decoration-none rounded-lg font-bold py-5 bg-[#12818A] font-semibold text-white w-[300px] text-xl"
+                                                >Facebook
+                                            </a>
+                                            <img
+                                                src="././src/assets/🦆 icon _facebook_.png"
+                                                alt=""
+                                                class="h-full object-cover rounded-[10px]"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <!-- HAI -->
+                      <div
+                      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                      data-te-carousel-item>
+                      <div class="h-[870px] w-[1904px]">
+                        <div class="h-[500px] w-full relative">
+                            <img
+                                src="././src/assets/nen2.jpg"
+                                class="object-cover h-[450px] w-full"
+                                alt=""
+                            />
+                            <div
+                                class="w-[400px] border-[#12818A] border-4 rounded-tr-[50px] rounded-bl-[50px] overflow-hidden left-9 h-[450px] absolute top-6"
+                            >
+                                <img
+                                    src="././src/assets/hai.jpg"
+                                    class="h-full w-full object-cover"
+                                    alt=""
+                                />
+                            </div>
+                            <div
+                                class="w-[50px] absolute top-[500px] right-20 flex gap-2 flex-col"
+                            >
+                                <img
+                                    src="././src/assets/Likes.png"
+                                    class="h-[40px] object-contain"
+                                    alt=""
+                                />
+                                <img
+                                    src="././src/assets/Vector (5).png"
+                                    class="h-[24px] object-contain"
+                                    alt=""
+                                />
+                                <img
+                                    src="././src/assets/Group 11.png"
+                                    class="h-[33px] object-contain"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                        <div class="h-[350px] px-[36px]">
+                            <div class="h-[100px]">
+                                <p
+                                    class="text-[30px] text-[#12818A] font-semibold w-[300px] shadow-gray-50"
+                                    style="
+                                        text-shadow: 0px 4px rgba(0, 0, 0, 0.07),
+                                            1px -1px 0 #000, -1px 1px 0 #000,
+                                            1px 1px 0 #000;
+                                    "
+                                >
+                                    ĐOÀN THỊ HẢI
+                                </p>
+                                <p
+                                    class="text-[#8D8B8B] font-thin w-[200px] text-xs"
+                                >
+                                    Mã sinh viên : B20DCVT024
+                                </p>
+                                <div class="flex gap-2 mt-1">
+                                    <img
+                                        src="././src/assets/Ratings.png"
+                                        class="object-contain"
+                                        alt=""
+                                    />
+                                    <span
+                                        class="font-semibold text-xs bg-[#12818A] py-2 px-5 rounded-lg text-white cursor-pointer hover:bg-[#12818A]"
+                                    >
+                                        Messenge</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="mt-[10px] h-[250px]">
+                                <p
+                                    class="text-[#12818A] text-xl font-bold py-2"
+                                >
+                                    Thông tin cá nhân :
+                                </p>
+                                <p class="h-1/2">
+                                    Mình là sinh viên Học viện Bưu Chính Viễn
+                                    Thông ( PTIT ) . Chuyên ngành Điện tử Viễn
+                                    Thông Mình là sinh viên Học viện Bưu Chính
+                                    Viễn Thông ( PTIT ) . Chuyên ngành Điện tử
+                                    Viễn ThôngMình là sinh viên Học viện Bưu
+                                    Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                    Điện tử Viễn ThôngMình là sinh viên Học viện
+                                    Bưu Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                    Điện tử Viễn ThôngMình là sinh viên Học viện
+                                    Bưu Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                    Điện tử Viễn ThôngMình là sinh viên Học viện
+                                    Bưu Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                    Điện tử Viễn Thông
+                                </p>
+                                <div class="flex justify-evenly h-[70px]">
+                                    <div class="flex gap-2 items-center">
+                                        <a
+                                            href="https://doanhai12.github.io/"
+                                            class="text-center text-decoration-none rounded-lg py-5 bg-[#12818A] font-semibold text-white w-[300px]"
+                                            >PROFILE CÁ NHÂN</a
+                                        >
+                                        <img
+                                            src="././src/assets/🦆 icon _user_.png"
+                                            class="h-[62px] object-cover"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="flex gap-2 items-center mt-2">
+                                        <a
+                                            href="https://github.com/doanhai12"
+                                            class="text-center text-decoration-none rounded-lg py-5 bg-[#12818A] font-semibold text-white w-[300px]"
+                                            >GITHUB</a
+                                        >
+                                        <img
+                                            src="././src/assets/🦆 icon _github_ (1).png"
+                                            alt=""
+                                            class="h-full object-cover"
+                                        />
+                                    </div>
+                                    <div class="flex gap-2 items-center mt-2">
+                                        <a
+                                            href="https://www.facebook.com/profile.php?id=100016219446317"
+                                            class="text-center text-decoration-none rounded-lg font-bold py-5 bg-[#12818A] font-semibold text-white w-[300px] text-xl"
+                                            >Facebook
+                                        </a>
+                                        <img
+                                            src="././src/assets/🦆 icon _facebook_.png"
+                                            alt=""
+                                            class="h-full object-cover rounded-[10px]"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- An -->
+                    <div
+                    class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                    data-te-carousel-item>
+                    <div class="h-[870px] w-[1904px]">
+                        <div class="h-[500px] w-full relative">
+                            <img
+                                src="././src/assets/nen1.jpg"
+                                class="object-cover object-bottom h-[450px] w-full"
+                                alt=""
+                            />
+                            <div
+                                class="w-[400px] border-[#12818A] border-4 rounded-tr-[50px] rounded-bl-[50px] overflow-hidden left-9 h-[450px] absolute top-6"
+                            >
+                                <img
+                                    src="././src/assets/120814503_2718247808493820_7078490863612846160_n.jpg"
+                                    class="h-full object-cover"
+                                    alt=""
+                                />
+                            </div>
+                            <div
+                                class="w-[50px] absolute top-[500px] right-20 flex gap-2 flex-col"
+                            >
+                                <img
+                                    src="././src/assets/Likes.png"
+                                    class="h-[40px] object-contain"
+                                    alt=""
+                                />
+                                <img
+                                    src="././src/assets/Vector (5).png"
+                                    class="h-[24px] object-contain"
+                                    alt=""
+                                />
+                                <img
+                                    src="././src/assets/Group 11.png"
+                                    class="h-[33px] object-contain"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                        <div class="h-[350px] px-[36px]">
+                            <div class="h-[100px]">
+                                <p
+                                    class="text-[30px] text-[#12818A] font-semibold w-[300px] shadow-gray-50"
+                                    style="
+                                        text-shadow: 0px 4px rgba(0, 0, 0, 0.07),
+                                            1px -1px 0 #000, -1px 1px 0 #000,
+                                            1px 1px 0 #000;
+                                    "
+                                >
+                                    NGUYỄN ĐẮC AN
+                                </p>
+                                <p
+                                    class="text-[#8D8B8B] font-thin w-[200px] text-xs"
+                                >
+                                    Mã sinh viên : B20DCVT024
+                                </p>
+                                <div class="flex gap-2 mt-1">
+                                    <img
+                                        src="././src/assets/Ratings.png"
+                                        class="object-contain"
+                                        alt=""
+                                    />
+                                    <span
+                                        class="font-semibold text-xs bg-[#12818A] py-2 px-5 rounded-lg text-white cursor-pointer hover:bg-[#12818A]"
+                                    >
+                                        Messenge</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="mt-[10px] h-[250px]">
+                                <p
+                                    class="text-[#12818A] text-xl font-bold py-2"
+                                >
+                                    Thông tin cá nhân :
+                                </p>
+                                <p class="h-1/2">
+                                    Mình là sinh viên Học viện Bưu Chính Viễn
+                                    Thông ( PTIT ) . Chuyên ngành Điện tử Viễn
+                                    Thông Mình là sinh viên Học viện Bưu Chính
+                                    Viễn Thông ( PTIT ) . Chuyên ngành Điện tử
+                                    Viễn ThôngMình là sinh viên Học viện Bưu
+                                    Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                    Điện tử Viễn ThôngMình là sinh viên Học viện
+                                    Bưu Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                    Điện tử Viễn ThôngMình là sinh viên Học viện
+                                    Bưu Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                    Điện tử Viễn ThôngMình là sinh viên Học viện
+                                    Bưu Chính Viễn Thông ( PTIT ) . Chuyên ngành
+                                    Điện tử Viễn Thông
+                                </p>
+                                <div class="flex justify-evenly h-[70px]">
+                                    <div class="flex gap-2 items-center">
+                                        <a
+                                            href="https://darkant12.github.io/web/"
+                                            class="text-center text-decoration-none rounded-lg py-5 bg-[#12818A] font-semibold text-white w-[300px]"
+                                            >PROFILE CÁ NHÂN</a
+                                        >
+                                        <img
+                                            src="././src/assets/🦆 icon _user_.png"
+                                            class="h-[62px] object-cover"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="flex gap-2 items-center mt-2">
+                                        <a
+                                            href="https://github.com/darkant12"
+                                            class="text-center text-decoration-none rounded-lg py-5 bg-[#12818A] font-semibold text-white w-[300px]"
+                                            >GITHUB</a
+                                        >
+                                        <img
+                                            src="././src/assets/🦆 icon _github_ (1).png"
+                                            alt=""
+                                            class="h-full object-cover"
+                                        />
+                                    </div>
+                                    <div class="flex gap-2 items-center mt-2">
+                                        <a
+                                            href="https://www.facebook.com/profile.php?id=100009258831557"
+                                            class="text-center text-decoration-none rounded-lg font-bold py-5 bg-[#12818A] font-semibold text-white w-[300px] text-xl"
+                                            >Facebook
+                                        </a>
+                                        <img
+                                            src="././src/assets/🦆 icon _facebook_.png"
+                                            alt=""
+                                            class="h-full object-cover rounded-[10px]"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <button
+                      class="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+                      type="button"
+                      data-te-target="#carouselExampleIndicators"
+                      data-te-slide="prev">
+                      <span class="inline-block h-8 w-8">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="h-6 w-6">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M15.75 19.5L8.25 12l7.5-7.5" />
+                        </svg>
+                      </span>
+                      <span
+                        class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+                        >Previous</span
+                      >
+                    </button>
+                    <button
+                      class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+                      type="button"
+                      data-te-target="#carouselExampleIndicators"
+                      data-te-slide="next">
+                      <span class="inline-block h-8 w-8">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="h-6 w-6">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                        </svg>
+                      </span>
+                      <span
+                        class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+                        >Next</span
+                      >
+                    </button>
                     </div>
                 </div>
             </div>
         </div>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-            crossorigin="anonymous"
-        ></script>
+        <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
     </body>
 </html>
